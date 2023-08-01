@@ -1,0 +1,65 @@
+[
+  {
+    "article_name": "Mug O'Shop",
+    "image": "https://res.cloudinary.com/drhsq6nli/image/upload/v1683710188/2023-05-03_10h21_19_gmosfs.png",
+    "price": 10,
+    "excerpt": "Pour faire le plein ? Non, ce n'est pas une carte fidélité de la station essence...",
+    "description": "Pour vous aider à absober l'essence du développeur web, LA CAFEINE ! Mais on n'oublie pas non plus les buveurs de thé évidemment! Ce joli mug fera votre bonheur !",
+    "category_id": 2,
+    "quantity": 100
+  },
+  {
+    "article_name": "SweatShirt O'Shop",
+    "image": "https://res.cloudinary.com/drhsq6nli/image/upload/v1683710188/2023-05-03_10h26_10_g59hac.png",
+    "price": 22,
+    "excerpt": "Pour les frileux, et les frimeurs",
+    "description": "Ce sweat sera parfait pour vous accompagner lors de vos longues soirées d'hiver de code.. à noter que vous pourrez l'utiliser en journée aussi !",
+    "category_id": 1,
+    "quantity": 100
+  },
+  {
+    "article_name": "Casquette O'Shop",
+    "image": "https://res.cloudinary.com/drhsq6nli/image/upload/v1683710188/2023-05-03_10h20_15_facang.png",
+    "price": 13,
+    "excerpt": "L'abus de soleil est dangereux pour développer",
+    "description": "Quel développeur n'a jamais rêvé de \"travailler\" en vacances, les doigts de pieds en éventails ? Avec cette casquette, on limite les risques de surchauffe, et donc on est plus performant !",
+    "category_id": 3,
+    "quantity": 100
+  },
+  {
+    "article_name": "Thermos O'Shop",
+    "image": "https://res.cloudinary.com/drhsq6nli/image/upload/c_scale,e_vibrance:20,r_0,w_900/v1683710188/2023-05-03_10h23_52_obvje1.png",
+    "price": 16,
+    "excerpt": "Pour les plus maladroits",
+    "description": "Nous connaissons tous une personne maladroite qui a renversé sa tasse et recouvert son bureau et son clavier de son breuvage favoris, grâce à ce thermos, vous pourrez non seulement garder votre boisson au chaud, mais en plus de ça, éviter d'en mettre partout",
+    "category_id": 4,
+    "quantity": 100
+  },
+  {
+   "article_name": "Stickers O'Shop",
+   "image": "https://res.cloudinary.com/drhsq6nli/image/upload/v1683710188/2023-05-03_10h30_04_y12obu.png",
+   "price": 0,
+   "excerpt": "On fait partie de la même équipe !",
+   "description": "Si vous êtes ici, c'est certainement que nous faisons partie de la même équipe, et que tu en es aussi fier que nous ! Affiches où tu veux tes couleurs et ta fierté avec ces stickers !",
+   "category_id": 3,
+   "quantity": 100
+  },
+  {
+    "article_name": "5 Magnet O'Shop",
+    "image": "https://res.cloudinary.com/drhsq6nli/image/upload/v1683710188/2023-05-03_10h23_18_jnu48i.png",
+    "price": 5,
+    "excerpt": "Un frigo c'est bien, quand il y a des magnets, c'est mieux !",
+    "description": "Donne un look d'enfer à ton frigo avec ce magnifique magnet ! Par contre, évites de t'en servir comme post-it, c'est mauvais pour les écrans",
+    "category_id": 3,
+    "quantity": 100
+  },
+  {
+    "article_name": "T-Shirt O'Shop",
+    "image": "https://res.cloudinary.com/drhsq6nli/image/upload/v1683710188/2023-05-03_10h16_15_z2ts3x.png",
+    "price": 12,
+    "excerpt": "Pratique pour les pannes, sauf celles d'inspiration",
+    "description": "Imagine, la clim de l'Open space est en panne ? Bah tu n'auras pas trop chaud puisqu'en dessous de ton Sweat O'Shop, tu auras un T-Shirt toujours O'Shop.. Que demander de mieux ?",
+    "category_id": 1,
+    "quantity": 100
+  }
+]

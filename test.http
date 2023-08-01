@@ -1,0 +1,93 @@
+### get all articles
+GET http://localhost:3000/articles
+
+### post article
+POST http://localhost:3000/articles
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInVzZXJJc0FkbWluIjp0cnVlLCJpYXQiOjE2ODQ5MTY4NjIsImV4cCI6MTY4NTAwMzI2Mn0.JXVtdjWN4m884Sreja--eKdcjY0S0glLy8KSWRdYtYs
+
+{
+  "article_name": "Baby Yoda",
+  "excerpt": "Fan de Mandalorian",
+  "price": 15, 
+  "image": "O'Shop",
+  "description": "Au lieu de te fracasser sur du code, prends ta pause ",
+  "category_id": 1,
+  "quantity": 100
+}
+
+### PATCH article
+PATCH  http://localhost:3000/articles/9
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInVzZXJJc0FkbWluIjp0cnVlLCJpYXQiOjE2ODQ5MTY4NjIsImV4cCI6MTY4NTAwMzI2Mn0.JXVtdjWN4m884Sreja--eKdcjY0S0glLy8KSWRdYtYs
+
+{"quantity": 100}
+
+### DELETE article
+DELETE  http://localhost:3000/articles/8
+Content-Type: application/json
+Authorization: Bearer 
+
+### get articles by category
+GET http://localhost:3000/articles/category/thermos
+
+### get all categories
+GET http://localhost:3000/categories
+
+### create user
+POST http://localhost:3000/signup
+Content-Type: application/json
+
+{"firstname": "Niels", "lastname": "NI", "email": "nn@gmail.com", "password": "Niels75018", "phone": "0632408839", "address": "xxx"}
+
+### login
+POST http://localhost:3000/login
+Content-Type: application/json
+
+
+{"email": "la@gmail.com", "password": "Laury97"}
+
+### get profile
+GET http://localhost:3000/account
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsInVzZXJJc0FkbWluIjp0cnVlLCJpYXQiOjE2ODQ4MjYwMjIsImV4cCI6MTY4NDkxMjQyMn0.rUBJqanPQFgAe0IKAGnXxDzmoUKuAbuiPjEeDWynDRg
+
+### patch profile
+PATCH  http://localhost:3000/account
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInVzZXJJc0FkbWluIjp0cnVlLCJpYXQiOjE2ODQ5MjEwNDIsImV4cCI6MTY4NTAwNzQ0Mn0.voeUlWAb_pkan0foM_t_b8-7M9YopnNQ_zaA9pD6Mcc
+
+{"lastname": "BLOCH"}
+
+### Create new order
+POST http://localhost:3000/checkout
+Content-Type: application/json
+Authorization: Bearer 
+
+[
+  {
+    "product_id": 1,
+    "quantity": 3
+  },
+  {
+    "product_id": 2,
+    "quantity": 5
+  }
+]
+
+### Get one order
+GET http://localhost:3000/account/orders
+Content-Type: application/json
+Authorization: Bearer 
+
+### Get all account
+GET http://localhost:3000/admin
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInVzZXJJc0FkbWluIjp0cnVlLCJpYXQiOjE2ODUwODY4NTgsImV4cCI6MTY4NTE3MzI1OH0.lZqFltGtIrtwdCU3lvT5lk7W-oCRjON4g0NKOCuS8Og
+
+### GET
+GET http://localhost:3000/check-email?email=xo@gmail.com
+
+### DELETE account
+DELETE http://localhost:3000/account
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjQsInVzZXJJc0FkbWluIjpmYWxzZSwiaWF0IjoxNjg1MTAzMzgwLCJleHAiOjE2ODUxODk3ODB9.UBQmEZN6tuuxVJGyTpBVl5bUF-CAEaYGEeRAm685Lyw

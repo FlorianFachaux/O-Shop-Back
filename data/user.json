@@ -1,0 +1,35 @@
+[
+  {
+    "firstname": "Daniel",
+    "lastname": "BLOCH",
+    "email": "db@gmail.com",
+    "password": "Daniel75",
+    "address": "12, allée Louis Aragon, 75012 Paris",
+    "phone": "0123456789",
+    "role": "student",
+    "promo": "Quarks",
+    "isAdmin": true
+  },
+  {
+    "firstname": "Laury",
+    "lastname": "AMETIS",
+    "email": "la@gmail.com",
+    "password": "Laury97",
+    "address": "8, rue Pierre Mendes France, 75013 Paris",
+    "phone": "0102030405",
+    "role": "student",
+    "promo": "Quarks",
+    "isAdmin": false
+  },
+  {
+    "firstname": "Florian",
+    "lastname": "FACHAUX",
+    "email": "ff@gmail.com",
+    "password": "Florian5",
+    "address": "8, rue Pierre Mendes France, 75013 Paris",
+    "phone": "0102030405",
+    "role": "student",
+    "promo": "Quarks",
+    "isAdmin": false
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "label": "Vêtements",
+    "slug": "vetements",
+    "description": "Sweatshirts, T-Shirts, survêtements, shorts, le confort à la O'Shop"
+  },
+  {
+    "label": "Tasses & mugs",
+    "slug": "tasses-et-mugs",
+    "description": "Plutôt tasse, plutôt mug? Plutôt café, plutôt thé ? Peu importe, il y a de quoi te contenter !"
+  },
+  {
+    "label": "Accessoires",
+    "slug": "accessoires",
+    "description": "A quoi bon avoir des vêtements O'Shop, si tu n'as pas les accessoires qui vont avec ??"
+  },
+  {
+    "label": "Thermos",
+    "slug": "thermos",
+    "description": "La légende raconte que 200 claviers meurent chaque mois en France. On a pensé à toi !"
+  }
+]
