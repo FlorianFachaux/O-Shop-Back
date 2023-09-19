@@ -8,7 +8,7 @@
     "phone": "0123456789",
     "role": "student",
     "promo": "Quarks",
-    "isAdmin": true
+    "isAdmin": false
   },
   {
     "firstname": "Laury",
@@ -30,6 +30,6 @@
     "phone": "0102030405",
     "role": "student",
     "promo": "Quarks",
-    "isAdmin": false
+    "isAdmin": true
   }
 ]

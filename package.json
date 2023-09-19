@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node .",
     "test": "jest --watch --verbose --runInBand --detectOpenHandles",
-    "resetDB":"psql -U oshop -d oshop -f data/o-shop.v1.sql; node data/import_data.js"
+    "resetDB": "psql -U oshop -d oshop -f data/o-shop.v1.sql; node data/import_data.js"
   },
   "keywords": [],
   "author": "",
@@ -23,6 +23,7 @@
     "@sequelize/core": "^7.0.0-alpha.23",
     "bcrypt": "^5.1.0",
     "cors": "^2.8.5",
+    "csurf": "^1.11.0",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "express-session": "^1.17.3",
